@@ -13,9 +13,9 @@ extern bool compressing;
 
 FILE *tracefp;
 
-#define ZCAT		"/bin/gzip -dc"
-#define BZCAT		"/usr/bin/bzip2 -dc"
-#define CAT		"/bin/cat"
+#define ZCAT		"/Users/CARLOSPARLOUR/Documents/GitHub/BranchPredictor/cbp2-infrastructure-v2/traces -dc"
+#define BZCAT		"/Users/CARLOSPARLOUR/Documents/GitHub/BranchPredictor/cbp2-infrastructure-v2/traces -dc"
+#define CAT			"/Users/CARLOSPARLOUR/Documents/GitHub/BranchPredictor/cbp2-infrastructure-v2/traces"
 
 unsigned char buf[BUFSIZE];
 unsigned int bufpos, bufsize;
